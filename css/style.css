@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* start if banner area */
+
+#banner {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.banner-text {
+    width: 50%;
+    padding: 10%;
+}
+
+.banner-text h1,
+.about-text h1,
+#blogs h1 {
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.banner-text p,
+.about-text p,
+#blogs .des {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.banner-text span,
+#before-footer span {
+    color: #fe472d;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.banner-img,
+.about-img,
+.about-text {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 80%;
+}
+
+.yt-btn,
+.contact-btn {
+    background: linear-gradient(
+        90deg,
+        rgba(251, 149, 75, 1) 10%,
+        rgba(254, 71, 45, 1) 100%
+    );
+    border: none;
+    padding: 2% 4%;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 1em;
+    text-transform: capitalize;
+}
+
+.yt-btn:hover,
+.contact-btn:hover {
+    /* background: #fe472d; */
+    background: linear-gradient(
+        90deg,
+        rgba(254, 71, 45, 1) 10%,
+        rgba(251, 149, 75, 1) 100%
+    );
+}
+
+/* end if banner area */
+
+/* start of about area */
+
+#about {
+    display: flex;
+    align-items: center;
+    background-image: url("../img/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    padding: 0% 10%;
+}
+.about-img img {
+    width: 50%;
+    padding: 10% 25% 0% 35%;
+    margin-bottom: -0.5em;
+}
+
+/* end of about area */
+
+/* start of blog area */
+
+#blogs {
+    padding: 5% 0 8% 0;
+}
+
+#blogs h1,
+.des {
+    text-align: center;
+}
+
+.sub-h {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0px 0px 50px rgba(189, 189, 189, 0.644);
+    padding: 1em;
+    border-radius: 25px;
+    width: 27%;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card h2 {
+    font-weight: 600;
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.card p {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+.card a {
+    text-decoration: none;
+    color: #fe472d;
+}
+
+/* end of blog area */
+
+/* start of statics area */
+
+#statics {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px rgba(189, 189, 189, 0.644);
+    margin-bottom: 5%;
+}
+
+.static {
+    padding: 3%;
+}
+
+.static h1 {
+    font-size: 2.5em;
+}
+
+.static p {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+/* end of statics area */
+
+/* start of before footer */
+
+#before-footer {
+    background-color: #0b0d17;
+    color: #7c7c7c;
+    text-align: center;
+    padding: 4% 0;
+}
+
+#before-footer h1 {
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    margin-bottom: 0.5em;
+}
+
+#before-footer p {
+    font-weight: 300;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* end of before footer */
